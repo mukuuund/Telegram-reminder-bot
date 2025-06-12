@@ -2,8 +2,11 @@
 __pycache__/
 *.py[cod]
 
-# Ignore virtual environment
-venv/
+# Ignore virtual environments
+venv*/
+.venv/
+env/
+.venv310/
 
-# Ignore environment variables and credentials
+# Ignore environment variables and sensitive data
 .env
